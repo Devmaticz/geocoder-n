@@ -3,7 +3,7 @@
 # Defaults
 NOMINATIM_DATA_PATH=${NOMINATIM_DATA_PATH:="/srv/nominatim/data"}
 NOMINATIM_DATA_LABEL=${NOMINATIM_DATA_LABEL:="data"}
-NOMINATIM_PBF_URL=${NOMINATIM_PBF_URL:="http://download.geofabrik.de/asia/maldives-latest.osm.pbf"}
+NOMINATIM_PBF_URL=${NOMINATIM_PBF_URL:="http://download.geofabrik.de/africa/algeria-latest.osm.pbf"}
 
 
 # Retrieve the PBF file
