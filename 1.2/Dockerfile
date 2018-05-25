@@ -1,6 +1,6 @@
 FROM ubuntu:xenial as builder
 
-MAINTAINER Peter Evans <pete.evans@gmail.com>
+MAINTAINER Augmented Telematics <dev@augmentedtelematics.com>
 
 ENV NOMINATIM_VERSION 3.1.0
 
