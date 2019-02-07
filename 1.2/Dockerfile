@@ -2,7 +2,7 @@ FROM ubuntu:xenial as builder
 
 MAINTAINER Augmented Telematics <dev@augmentedtelematics.com>
 
-ENV NOMINATIM_VERSION 3.1.0
+ENV NOMINATIM_VERSION 3.2.0
 
 # Let the container know that there is no TTY
 ENV DEBIAN_FRONTEND noninteractive
