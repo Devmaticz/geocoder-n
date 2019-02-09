@@ -68,7 +68,7 @@ RUN apt-get -y update \
  && rm -rf /var/lib/apt/lists/* \
  && rm -rf /tmp/* /var/tmp/*
 
-# Copy the application from the builder image
+# Copy the application from the builder image o
 COPY --from=builder /srv/nominatim /srv/nominatim
 
 # Configure Nominatim
