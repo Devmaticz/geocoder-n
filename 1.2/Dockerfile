@@ -29,7 +29,7 @@ RUN apt-get -y update \
 
 # Build Nominatim
 RUN cd /srv \
- && curl --silent -L http://www.nominatim.org/release/Nominatim-$NOMINATIM_VERSION.tar.bz2 -o v$NOMINATIM_VERSION.tar.bz2 \
+ && curl --silent -L http://http://images.fleetcenter.dz/images/Nominatim-$NOMINATIM_VERSION.tar.bz2 -o v$NOMINATIM_VERSION.tar.bz2 \
  && tar xf v$NOMINATIM_VERSION.tar.bz2 \
  && rm v$NOMINATIM_VERSION.tar.bz2 \
  && mv Nominatim-$NOMINATIM_VERSION nominatim \
