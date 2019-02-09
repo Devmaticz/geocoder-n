@@ -25,7 +25,6 @@ RUN apt-get -y update \
     libgeos++-dev \
     libproj-dev \
     postgresql-server-dev-9.5 \
-    php5.6-intl \
     curl
 
 # Build Nominatim
