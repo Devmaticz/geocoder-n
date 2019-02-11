@@ -1,3 +1,3 @@
 # geocoder-n
 
-ka6
+ka7
